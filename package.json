@@ -5,8 +5,7 @@
   "scripts": {
     "lint": "npx standard",
     "lint:fix": "npx standard --fix",
-    "pretest:github": "webdriver-manager update --versions.chrome 81.0.4044.138",
-    "pretest:local": "webdriver-manager update",
+    "pretest": "webdriver-manager update",
     "test": "npm run test:chrome && npm run test:firefox",
     "test:chrome": "protractor configurations/chromeConfig.js",
     "test:firefox": "protractor configurations/firefoxConfig.js"
