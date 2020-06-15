@@ -8,9 +8,5 @@ module.exports = providedConfig => {
     jasmineNodeOpts: { random: true }
   }
 
-  return Object.assign(
-    {},
-    defaultConfig,
-    providedConfig
-  )
+  return { ...defaultConfig, ...providedConfig }
 }
