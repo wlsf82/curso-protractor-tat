@@ -24,7 +24,7 @@ _Bootstrap_ do projeto de testes _end-to-end_
     <br>- Clone do projeto (git clone git@github.com:wlsf82/curso-protractor-tat.git)<br>
     - Inicialização de um projeto Node.js (npm init -y)<br>
     - Criação do arquivo .gitignore (.DS_Store, node_modules/)<br>
-    - Instalação do Protractor, protractor-helper e standardjs (npm install protractor protractor-helper standardjs —save-dev)<br>
+    - Instalação do Protractor, protractor-helper e standardjs (npm install protractor protractor-helper standard —save-dev)<br>
     - Estrutura de diretórios do projeto de testes e2e (configurations/, page-objects/, page-objects/components/, utils/, specs/)<br>
     - Documentação oficial do Protractor (http://protractortest.org)
 </details>
